@@ -1,0 +1,6 @@
+DATA_FOLDER = ".data"
+TEMP_FOLDER = ".temp"
+DOWNLOADED_DATA_FILE = "downloaded.json"
+DATA_SOURCE_URL = "https://servicodados.ibge.gov.br/api/v1/downloads/estatisticas?caminho=Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Trimestral/Microdados&nivel=1"
+DEFLATOR_SOURCE_URL = "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Trimestral/Microdados/Documentacao/Deflatores.zip"
+TUTORIAL_URL = "https://github.com/cleomarfelipe/pnadcontinua"
