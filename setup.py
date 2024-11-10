@@ -18,5 +18,10 @@ setup(
         "requests==2.32.3",
         "urllib3==2.2.3",
     ],
+    entry_points={
+        "console_scripts": [
+            "pnadcontinua = pnadcontinua.gui.app:main",
+        ],
+    },
     python_requires='>=3.7',
 )

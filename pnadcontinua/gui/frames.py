@@ -929,7 +929,7 @@ class TutorialFrame(BaseFrame):
         self.label = ttk.Label(self.main_frame, text="Tutorial disponível no endereço:")
         self.label.pack(padx=5, pady=5, anchor="w")
 
-        self.url = tk.Text(self.main_frame, height=1, width=50)
+        self.url = tk.Text(self.main_frame, height=1, width=54)
         self.url.insert(tk.END, self.tutorial_url)
         self.url.tag_configure("center", justify="center")
         self.url.tag_add("center", "1.0", "end")
