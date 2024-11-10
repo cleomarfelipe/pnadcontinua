@@ -47,6 +47,6 @@ class App(tk.Tk):
         frame.tkraise()
 
 
-if __name__ == "__main__":
+def main():
     app = App()
     app.mainloop()
