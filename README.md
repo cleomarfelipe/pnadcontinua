@@ -29,6 +29,8 @@ Essa biblioteca foi criada para facilitar a análise de microdados da PNAD Cont�
 
 ### Instalação
 
+Antes de instalar a biblioteca, certifique-se de que o Python (versão 3.7 ou superior) esteja instalado no sistema. Você pode [baixá-lo aqui](https://www.python.org/downloads/), caso ainda não o tenha.
+
 Para instalar a biblioteca, execute o seguinte comando no terminal:
 
 ```bash
@@ -38,8 +40,14 @@ pip install pnadcontinua
 ### Como Rodar
 Após a instalação, basta executar o seguinte comando para iniciar o programa:
 
+- **No Widows**:
 ```bash
-pnadcontinua
+python -m pnadcontinua
+```
+
+- **No Linux**:
+```bash
+python3 -m pnadcontinua
 ```
 
 ### Como Utilizar

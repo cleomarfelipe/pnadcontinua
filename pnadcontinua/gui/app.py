@@ -45,8 +45,3 @@ class App(tk.Tk):
 
     def show_frame(self, frame):
         frame.tkraise()
-
-
-def main():
-    app = App()
-    app.mainloop()
